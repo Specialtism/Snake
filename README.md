@@ -43,16 +43,15 @@ A classic Snake game built with C# and WPF targeting .NET 10. Choose from multip
 - **Move Snake:** Use Arrow Keys (↑ ↓ ← →)
 - **Objective:** Eat food to grow and score points without hitting walls or yourself
 - **Power-ups:** 
-  - 🟢 Green items: Speed boost
-  - 🔴 Red items: Slow down effect
+  - 🟢 Green with Blue Cracks: Speed boost
 
 ## Game Modes
 
 | Mode | Description | Grid Size |
 |------|-------------|-----------|
 | **Classic** | Traditional snake gameplay | 20x20 |
-| **Large Grid** | Massive arena with power-ups | 100x100 |
-| **Classic Hard** | Intense classic mode with random speed boosts | 20x20 |
+| **Large Grid** | Massive arena where food pick-ups randomly speed you up, slow you down, or behave regularly and has chance for speed boost spawn | 50x50 |
+| **Classic Hard** | Intense classic mode with sppawning random speed boosts | 20x20 |
 
 ## Technologies
 
@@ -77,4 +76,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Author
 
-Created with ❤️ by [Your Name]
